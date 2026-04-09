@@ -8,7 +8,6 @@ Une fois téléversés sur la plateforme, il est nécessaire d’harmoniser les 
 
 
 
-
 Le lien entre le pipeline de données et le reste de la plateforme permet de créer des objets ontologiques (objects) et les liens entre objets (links) directement dans le pipeline.
 Rappel : l’ontologie permet de définir les différents objets utilisés non comme des tables, mais des clés uniques ayant des propriétés (exemple : Chaise possède 1 dossier, 2 accoudoirs, 4 pieds) permettant de les intégrer directement dans les logiques métier. 
 Les liens entre objets ne sont pas de simples jointures, mais une manière de modéliser le réel (dans notre cas : chaque « entité » passe plusieurs transactions mais chaque transaction est unique par entité)

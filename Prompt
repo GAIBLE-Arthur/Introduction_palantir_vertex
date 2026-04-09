@@ -1,0 +1,15 @@
+Cas d’usage et prompt :
+
+Ce cas d’usage s’intéresse à la rapidité de Palantir Foundry pour effectuer des graphes de relations entre des entités. Nous partons d’un cas simple, différentes transactions de différents montants, des communications et des entités suspectes. Le cas est généré par IA (Gemini 3) et les données sont aléatoires.
+Prompt : 
+Rôle : Tu es un ingénieur Solutions chez Palantir, expert en déploiement de l'Ontologie et de Vertex pour la lutte contre la criminalité organisée.
+Objectif : Créer un Use Case complet pour traquer un réseau criminel (blanchiment d'argent et logistique illicite) via Palantir Vertex.
+
+Génération de données (Python/Colab) : Fournis un script Python complet pour générer 4 fichiers CSV réalistes et corrélés :
+
+Entities.csv (Individus)
+Financial_Transactions.csv (Virements)
+Logistics_Events.csv (Mouvements de conteneurs)
+Communications.csv (Métadonnées d'appels et messages).
+
+
